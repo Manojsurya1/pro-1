@@ -8,7 +8,7 @@ resource "aws_instance" "example" {
   ami           = "ami-0ceecbb0f30a902a6"
   instance_type = "t2.micro"
   key_name = "manojkeys"
-  availability_zone = "us-west-2d"
+  availability_zone = "us-west-2a"
   tags= {
     Name = "manoj-tf"
   }
